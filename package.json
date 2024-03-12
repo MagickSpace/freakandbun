@@ -1,0 +1,47 @@
+{
+  "name": "freakandbun",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "bunx --bun astro dev --verbose",
+    "start": "bun astro check && bunx --bun astro dev --verbose",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.7",
+    "@astrojs/react": "^3.1.0",
+    "@astrojs/sitemap": "^3.1.1",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@shadow-panda/style-context": "^0.7.1",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.21",
+    "astro": "^4.5.2",
+    "lucide-react": "^0.356.0",
+    "million": "^3.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.34.3",
+    "@shadow-panda/preset": "^0.7.1",
+    "@types/bun": "^1.0.8"
+  },
+  "description": "```bunx create astro@latest -- --template minimal ```",
+  "keywords": [],
+  "author": "MagickSpace <146006257+MagickSpace@users.noreply.github.com>",
+  "license": "ISC",
+  "repository": "https://github.com/MagickSpace/freakandbun"
+}

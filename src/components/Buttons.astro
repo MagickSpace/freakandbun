@@ -1,0 +1,11 @@
+---
+import { button } from '@shadow-panda/styled-system/recipes'
+export interface Props {
+   link: string,
+   text: string,
+}
+const {link, text} = Astro.props;
+---
+
+<button class={button({ variant: 'outline', size: 'default' })}><a href={link}>{text}</a></button>
+
